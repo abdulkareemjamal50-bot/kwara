@@ -22,7 +22,7 @@ SECRET_KEY = os.environ.get(
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # Automatically turns off debug mode when deployed to Render
-DEBUG = 'RENDER' not in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['kwara-30qd.onrender.com']
 
