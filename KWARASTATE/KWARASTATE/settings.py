@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get(
 # Automatically turns off debug mode when deployed to Render
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['kwara-30qd.onrender.com/dfhg']
 
 # Application definition
 
