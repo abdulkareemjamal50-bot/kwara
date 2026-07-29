@@ -24,8 +24,7 @@ SECRET_KEY = os.environ.get(
 # Automatically turns off debug mode when deployed to Render
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = ['stateproject.onrender.com', '.onrender.com', 'localhost', '127.0.0.1']
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
